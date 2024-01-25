@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.bar-major {
+    fill: steelblue;
+}
+
+.bar-earnings {
+    fill: darkslateblue
+}
+
+text {
+    font-size: 12px;
+    fill: black;
+    text-anchor: middle;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+}
+
+.bar-alt {
+    fill:darkslateblue;
+}
